@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# 🎓 EduManage - School Management System
 
-## Project info
+A comprehensive, modern school management system built with React, TypeScript, Supabase, and featuring a beautiful Bento-style UI with Apple-inspired animations.
 
-**URL**: https://lovable.dev/projects/27e9fd07-8fc0-44ac-a7e4-f62b243e0c74
+## 🌟 Features
 
-## How can I edit this code?
+### 👨‍💼 Admin Features
+- **Dashboard Overview** - Real-time statistics and insights
+- **Student Management** - Complete student profiles and enrollment tracking
+- **Teacher Management** - Staff profiles, qualifications, and assignments
+- **Class Management** - Class creation, capacity tracking, and organization
+- **Assignment Management** - Create, distribute, and track assignments
+- **Attendance Tracking** - Real-time attendance with analytics
+- **Grade Management** - Comprehensive grading and report cards
+- **Reports & Analytics** - Data-driven insights and reporting
 
-There are several ways of editing your application.
+### 👨‍🏫 Teacher Features
+- **Teacher Dashboard** - Personalized overview for educators
+- **My Classes** - Manage assigned classes and students
+- **Assignment Creation** - Create and track assignments
+- **Attendance Marking** - Quick and easy attendance management
+- **Grade Management** - Grade assignments and track student progress
 
-**Use Lovable**
+### 👨‍🎓 Student Features
+- **Student Dashboard** - Personal academic overview
+- **My Subjects** - View enrolled subjects and schedules
+- **Assignment Tracking** - View and submit assignments
+- **Grade Viewing** - Access grades and performance analytics
+- **Attendance History** - Personal attendance tracking
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/27e9fd07-8fc0-44ac-a7e4-f62b243e0c74) and start prompting.
+## 🚀 Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+### Frontend
+- **React 18** - Modern React with hooks
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool
+- **Tailwind CSS** - Utility-first CSS
+- **Framer Motion** - Beautiful animations
+- **Shadcn/ui** - High-quality UI components
 
-**Use your preferred IDE**
+### Backend
+- **Supabase** - Backend-as-a-Service
+- **PostgreSQL** - Robust database
+- **Row Level Security** - Secure data access
+- **Real-time subscriptions** - Live updates
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Setup Instructions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-Follow these steps:
+2. **Start Development Server**
+   ```bash
+   npm run dev
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Demo Accounts**
+   - Admin: admin@school.edu / admin123
+   - Teacher: teacher@school.edu / teacher123  
+   - Student: student@school.edu / student123
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📊 Key Features Implemented
 
-# Step 3: Install the necessary dependencies.
-npm i
+✅ **Authentication System** - Role-based access control
+✅ **Student Management** - CRUD operations with search/filter
+✅ **Teacher Management** - Comprehensive staff profiles
+✅ **Class Management** - Capacity tracking and organization
+✅ **Assignment System** - Create, track, and manage assignments
+✅ **Attendance Tracking** - Real-time marking with analytics
+✅ **Dashboard Analytics** - Role-specific overviews
+✅ **Responsive Design** - Mobile-first Bento-style UI
+✅ **Smooth Animations** - Apple-inspired interactions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🎨 Design System
 
-**Edit a file directly in GitHub**
+- **Bento-style cards** - Clean, organized layout
+- **Gradient accents** - Modern visual hierarchy
+- **Consistent spacing** - 8px grid system
+- **Typography** - Clear information architecture
+- **Responsive** - Mobile-first approach
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📱 Mobile Ready
 
-**Use GitHub Codespaces**
+The application is fully responsive and provides an excellent experience across:
+- 📱 Mobile phones
+- 📱 Tablets  
+- 💻 Desktop computers
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔐 Security Features
 
-## What technologies are used for this project?
+- JWT-based authentication
+- Role-based access control
+- Row Level Security (RLS)
+- Protected routes
+- Secure API endpoints
 
-This project is built with:
+## 📄 License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/27e9fd07-8fc0-44ac-a7e4-f62b243e0c74) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+MIT License - Built with ❤️ for the education community
